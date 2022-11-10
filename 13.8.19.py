@@ -1,7 +1,7 @@
 ticket = int(input('Number of tickets'))
 
-if ticket <= 0 or ticket > 100:
-    print("Tickets must be more than 0 and less than 100")
+if ticket <= 0 or ticket >= 10:
+    print("Tickets must be more than 0 and maximum 10")
 else: 
     age = [ticket]
 
